@@ -1,0 +1,35 @@
+@keyframes animation-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-30rem);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@keyframes animation-right {
+    0% {
+        opacity: 0;
+        transform: translateX(30rem);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+.animate-in-right {
+    animation: animation-right 1s ease-out;
+}
+
+.animate-in-left{
+    animation: animation-left 1s ease-out
+}
+
+.project-image {
+    position: relative;
+    top: 150rem;
+    display: hidden
+}

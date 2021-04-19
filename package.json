@@ -1,0 +1,12 @@
+{
+    "name": "portfolio",
+    "version": "0.0.1",
+    "private": "true",
+    "scripts": {
+        "build:css": "postcss src/styles.css -o static/dist/tailwind.css",
+        "watch": "watch npm-run-build:css ../ElectricBoogaloo"
+    },
+    "dependencies": {
+        "watch": "^1.0.2"
+    }
+}
